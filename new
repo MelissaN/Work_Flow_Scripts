@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# Automation script to generate new directory and readme for a project
+# Usage: ./new [parentdir that exists] [new dir]
+
+if [ "$#" -ne 2 ]; then
+    echo "Usage: ./new [parentdir] [dir]"
+    exit
+fi
+
+making="Making new dir [$2] in dir [$1]..."
+echo $making
+cd $1
+mkdir $2
+
+addReadme="Adding readme..."
+echo $addReadme
+cd && ./Work_Flow_Scripts/generate_readmes >> $1/$2/README.md
+
+editReadme="Opening readme for editing..."
+echo $editReadme
+cd $1/$2
+sleep 1
+emacs README.md
