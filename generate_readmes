@@ -17,7 +17,7 @@ cat <<- EOF
 * Compiler: python3, gcc 4.8.4  
 * Container: Docker  
 * Web Server: Apache  
-* Style guidelines: [Shellscript for Bash](https://github.com/koalaman/shellcheck) || [PEP 8 (version 1.7) for Python 3.5](https://www.python.org/dev/peps/pep-0008/) || [Google Style Python Docstrings](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html) || [Betty style for C89](https://github.com/holbertonschool/Betty/wiki) 
+* Style guidelines: [Shellscript for Bash](https://github.com/koalaman/shellcheck) || [PEP 8 (version 1.7) for Python 3.5](https://www.python.org/dev/peps/pep-0008/) || [Google Style Python Docstrings](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html) || [Betty style for C89](https://github.com/holbertonschool/Betty/wiki) || [Javascript Standard](https://standardjs.com/rules.html) || [Javascript Semistandard](https://github.com/Flet/semistandard) || [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript)
 
 ---
 ### Authors
